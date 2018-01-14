@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Bungee|Indie+Flower|Righteous" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
@@ -20,5 +21,13 @@
         <li style="float:right"><a href="contact.html">Contact</a></li>
       </ul>
     </div>
+    <div id="imageSlider">
+      <img class="sliderImages" src="Pictures/1.jpg">
+      <img class="sliderImages" src="Pictures/2.jpg">
+      <img class="sliderImages" src="Pictures/3.jpg">
+      <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="button" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
