@@ -1,3 +1,4 @@
+var timer = 0;
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -15,3 +16,21 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function animationLoop()
+{
+  requestAnimationFrame(animationLoop);
+
+  timer++;
+
+  if (timer > 1000)
+  {
+    plusDivs(+1);
+    timer = 0;
+  }
+
+
+
+}
+
+animationLoop();
