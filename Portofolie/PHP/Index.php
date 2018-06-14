@@ -20,42 +20,42 @@
       <h2>My top projects.</h2>
     </div>
       <div class="responsive">
-        <div class="gallery">
-            <img src="../Pictures/1.jpg" alt="Trolltunga Norway" width="300" height="200">
+        <div class="gallery" onclick="location.href='Mythe.php';">
+            <img src="../Pictures/1.jpg" alt="Trolltunga Norway" width="300" height="200" href="">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" onclick="location.href='#';">
             <img src="../Pictures/2.jpg" alt="Trolltunga Norway" width="300" height="200">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" onclick="location.href='#';">
             <img src="../Pictures/2.jpg" alt="Trolltunga Norway" width="300" height="200">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" onclick="location.href='#';">
             <img src="../Pictures/2.jpg" alt="Trolltunga Norway" width="300" height="200">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" onclick="location.href='#';">
             <img src="../Pictures/2.jpg" alt="Trolltunga Norway" width="300" height="200">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" onclick="location.href='#';">
             <img src="../Pictures/2.jpg" alt="Trolltunga Norway" width="300" height="200">
           </a>
           <div class="desc">Add a description of the image here</div>
